@@ -1,0 +1,26 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "jupyter.askForKernelRestart": false,
+    "jupyter.ignoreVscodeTheme": true,
+    "python.showStartPage": false,
+    "mssql.connections": [
+    
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ]
+}

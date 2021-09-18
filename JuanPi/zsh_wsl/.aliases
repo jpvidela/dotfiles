@@ -1,0 +1,60 @@
+# All my zsh aliases go here...
+
+alias jp='echo "Juan ♠️"'
+
+
+# CD aliases
+# Easier navigation: .., ..., ...., ....., ~ and -
+# ----------------------
+    alias ..="cd .."
+    alias ...="cd ../.."
+    alias ....="cd ../../.."
+    alias .....="cd ../../../.."
+    alias ~="cd ~" # `cd` is probably faster to type though
+    alias -- -="cd -"
+# ----------------------
+
+# Shortcuts
+# ----------------------
+    alias home="cd /mnt/c/Users/jvidela"
+    alias dev="cd /mnt/c/Users/jvidela/development"
+    alias GD="cd ~/Google\ Drive/My\ Drive"
+    alias dl="cd /mnt/c/Users/jvidela/Downloads"
+    alias dt="cd /mnt/c/Users/jvidela/Escritorio"
+# ----------------------
+
+# ----------------------
+# Git Aliases
+# ----------------------
+    alias g="git"
+    alias ga='git add'
+    alias gaa='git add .'
+    alias gaaa='git add -A'
+    alias gc='git commit'
+    alias gcm='git commit -m'
+    alias gd='git diff'
+    alias gi='git init'
+    alias gl='git log'
+    alias gp='git pull'
+    alias gpsh='git push'
+    alias gss='git status -s'
+    alias gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COMMITTING"; echo "*********************************************"; echo ""; git status'
+
+# Miscellaneous
+# ----------------------
+    alias hosts="sudo $EDITOR /etc/hosts"
+    alias quit="exit"
+    alias q="exit"
+    alias week="date +%V"
+    alias speedtest="wget -O /dev/null http://speed.transip.nl/100mb.bin"
+    alias grip="grip -b"
+    # Lock the screen (when going AFK: Away From Keyboard)
+    alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+    # Print each PATH entry on a separate line
+    alias path='echo -e ${PATH//:/\\n}'
+    # ----------------------
+
+
+
+
+

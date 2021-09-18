@@ -1,0 +1,10 @@
+.DS_Store
+
+# Local zsh files
+.zsh_sessions
+.zsh_history
+.zcompdump*
+
+# Everything in vscode, except...
+vscode/*
+!vscode/settings.json
